@@ -1,0 +1,9 @@
+postgres:
+  image: postgres:12
+  environment:
+    POSTGRES_USER: postgres
+    POSTGRES_PASSWORD: password
+    POSTGRES_DB: catalog
+  ports:
+    - "5433:5432"
+  restart: unless-stopped
