@@ -1,5 +1,10 @@
 # Catalog application
 
+Functional requirements:
+> The catalog consists of sections. </br>
+> Section may contain other sections and products. </br>
+> The product must be in only one section.
+
 Catalog is a sample REST application created using Spring stack (Framework, Boot, Data, Security, etc), PostgreSQL, FlyWay, Orika and OpenAPI.
 
 To run the application you need:
@@ -7,5 +12,7 @@ To run the application you need:
  - Any **IDE** with Spring support (IntelliJ IDEA Ultimate or STS) and/or **JDK 11** or higher.
 
 Use _local_ profile to start application with predefined database and security user (see _application-local.properties_ and _InMemoryUsersConfigurationProperties_ class).
+
+---
 
 Also, when application successfully started you can explore API using _Swagger UI_ available via **/api-ui** (and _/api-docs_ for JSON OpenAPI specification).
