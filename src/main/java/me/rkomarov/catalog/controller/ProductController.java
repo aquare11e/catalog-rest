@@ -1,9 +1,9 @@
-package me.rkomarov.catalog.contoller;
+package me.rkomarov.catalog.controller;
 
 import lombok.RequiredArgsConstructor;
-import me.rkomarov.catalog.contoller.dto.ProductDetailsResponseDto;
-import me.rkomarov.catalog.contoller.dto.ProductRequestDto;
-import me.rkomarov.catalog.contoller.dto.ProductResponseDto;
+import me.rkomarov.catalog.controller.dto.ProductDetailsResponseDto;
+import me.rkomarov.catalog.controller.dto.ProductRequestDto;
+import me.rkomarov.catalog.controller.dto.ProductResponseDto;
 import me.rkomarov.catalog.service.ProductService;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.access.prepost.PreAuthorize;

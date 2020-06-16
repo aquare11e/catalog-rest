@@ -1,7 +1,7 @@
 package me.rkomarov.catalog.service;
 
 import ma.glasnost.orika.MapperFacade;
-import me.rkomarov.catalog.contoller.dto.SectionRequestDto;
+import me.rkomarov.catalog.controller.dto.SectionRequestDto;
 import me.rkomarov.catalog.db.ProductRepository;
 import me.rkomarov.catalog.db.SectionRepository;
 import me.rkomarov.catalog.db.model.Section;

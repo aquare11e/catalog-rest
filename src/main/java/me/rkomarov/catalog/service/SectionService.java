@@ -2,9 +2,9 @@ package me.rkomarov.catalog.service;
 
 import lombok.RequiredArgsConstructor;
 import ma.glasnost.orika.MapperFacade;
-import me.rkomarov.catalog.contoller.dto.SectionRequestDto;
-import me.rkomarov.catalog.contoller.dto.SectionDetailsResponseDto;
-import me.rkomarov.catalog.contoller.dto.SectionResponseDto;
+import me.rkomarov.catalog.controller.dto.SectionRequestDto;
+import me.rkomarov.catalog.controller.dto.SectionDetailsResponseDto;
+import me.rkomarov.catalog.controller.dto.SectionResponseDto;
 import me.rkomarov.catalog.db.ProductRepository;
 import me.rkomarov.catalog.db.SectionRepository;
 import me.rkomarov.catalog.db.model.Section;
@@ -13,7 +13,6 @@ import me.rkomarov.catalog.exception.NotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Optional;

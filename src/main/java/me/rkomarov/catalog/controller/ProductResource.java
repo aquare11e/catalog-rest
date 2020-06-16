@@ -1,4 +1,4 @@
-package me.rkomarov.catalog.contoller;
+package me.rkomarov.catalog.controller;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
@@ -10,10 +10,10 @@ import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;
-import me.rkomarov.catalog.contoller.dto.ExceptionResponseDto;
-import me.rkomarov.catalog.contoller.dto.ProductDetailsResponseDto;
-import me.rkomarov.catalog.contoller.dto.ProductRequestDto;
-import me.rkomarov.catalog.contoller.dto.ProductResponseDto;
+import me.rkomarov.catalog.controller.dto.ExceptionResponseDto;
+import me.rkomarov.catalog.controller.dto.ProductDetailsResponseDto;
+import me.rkomarov.catalog.controller.dto.ProductRequestDto;
+import me.rkomarov.catalog.controller.dto.ProductResponseDto;
 
 import java.util.List;
 

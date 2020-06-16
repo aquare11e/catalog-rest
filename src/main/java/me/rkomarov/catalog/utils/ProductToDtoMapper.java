@@ -1,8 +1,8 @@
 package me.rkomarov.catalog.utils;
 
 import ma.glasnost.orika.MapperFactory;
-import me.rkomarov.catalog.contoller.dto.ProductDetailsResponseDto;
-import me.rkomarov.catalog.contoller.dto.ProductResponseDto;
+import me.rkomarov.catalog.controller.dto.ProductDetailsResponseDto;
+import me.rkomarov.catalog.controller.dto.ProductResponseDto;
 import me.rkomarov.catalog.db.model.Product;
 import net.rakugakibox.spring.boot.orika.OrikaMapperFactoryConfigurer;
 import org.springframework.stereotype.Component;

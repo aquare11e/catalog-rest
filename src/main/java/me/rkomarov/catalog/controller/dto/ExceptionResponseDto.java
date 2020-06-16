@@ -1,4 +1,4 @@
-package me.rkomarov.catalog.contoller.dto;
+package me.rkomarov.catalog.controller.dto;
 
 import lombok.Value;
 

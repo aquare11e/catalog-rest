@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
 import io.swagger.v3.oas.annotations.Hidden;
 import lombok.extern.slf4j.Slf4j;
-import me.rkomarov.catalog.contoller.dto.ExceptionResponseDto;
+import me.rkomarov.catalog.controller.dto.ExceptionResponseDto;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.validation.FieldError;

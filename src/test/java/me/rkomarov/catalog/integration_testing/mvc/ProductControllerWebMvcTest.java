@@ -1,7 +1,7 @@
 package me.rkomarov.catalog.integration_testing.mvc;
 
-import me.rkomarov.catalog.contoller.ProductController;
-import me.rkomarov.catalog.contoller.dto.ProductDetailsResponseDto;
+import me.rkomarov.catalog.controller.ProductController;
+import me.rkomarov.catalog.controller.dto.ProductDetailsResponseDto;
 import me.rkomarov.catalog.service.ProductService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

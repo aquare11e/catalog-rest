@@ -2,9 +2,9 @@ package me.rkomarov.catalog.service;
 
 import lombok.RequiredArgsConstructor;
 import ma.glasnost.orika.MapperFacade;
-import me.rkomarov.catalog.contoller.dto.ProductDetailsResponseDto;
-import me.rkomarov.catalog.contoller.dto.ProductRequestDto;
-import me.rkomarov.catalog.contoller.dto.ProductResponseDto;
+import me.rkomarov.catalog.controller.dto.ProductDetailsResponseDto;
+import me.rkomarov.catalog.controller.dto.ProductRequestDto;
+import me.rkomarov.catalog.controller.dto.ProductResponseDto;
 import me.rkomarov.catalog.db.ProductRepository;
 import me.rkomarov.catalog.db.SectionRepository;
 import me.rkomarov.catalog.db.model.Product;

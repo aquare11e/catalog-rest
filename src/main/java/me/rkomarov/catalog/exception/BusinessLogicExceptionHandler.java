@@ -2,7 +2,7 @@ package me.rkomarov.catalog.exception;
 
 import io.swagger.v3.oas.annotations.Hidden;
 import lombok.extern.slf4j.Slf4j;
-import me.rkomarov.catalog.contoller.dto.ExceptionResponseDto;
+import me.rkomarov.catalog.controller.dto.ExceptionResponseDto;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;

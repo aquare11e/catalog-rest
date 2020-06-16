@@ -1,7 +1,7 @@
 package me.rkomarov.catalog.integration_testing.component;
 
-import me.rkomarov.catalog.contoller.dto.ProductDetailsResponseDto;
-import me.rkomarov.catalog.contoller.dto.ProductRequestDto;
+import me.rkomarov.catalog.controller.dto.ProductDetailsResponseDto;
+import me.rkomarov.catalog.controller.dto.ProductRequestDto;
 import me.rkomarov.catalog.db.ProductRepository;
 import me.rkomarov.catalog.db.SectionRepository;
 import me.rkomarov.catalog.db.model.AmountUnit;
